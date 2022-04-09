@@ -12,7 +12,7 @@
     textHolder = CreateInstance("Frame", {BackgroundColor3=Color3.fromRGB(0, 0, 0), BorderColor3=Color3.fromRGB(0, 0, 0), Position=UDim2.new(0.00853788853, 0, 0.0364473727, 0), Size=UDim2.new(0, 129, 0, 33), Name = "textHolder", Parent=fpscounter})
     border = CreateInstance("Frame", {BackgroundColor3=Color3.fromRGB(0, 0, 0), BorderColor3=Color3.fromRGB(0, 0, 0), BorderSizePixel=0, Position=UDim2.new(0.00999999978, 0, 0.0520000011, 0), Size=UDim2.new(0, 128, 0, 30), Name="border", Parent=textHolder})
     gradient = CreateInstance("Frame", {Name="gradient", Parent=textHolder, BackgroundColor3=Color3.fromRGB(255, 255, 255), BorderSizePixel=0, Position = UDim2.new(0.00999999978, 0, 0.0289999992, 0), Size = UDim2.new(0, 127, 0, 3) })
-    UIGradient = CreateInstance("UIGradient", {Color=ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 105, 180)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB((255, 105, 180))), ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 105, 180))}, Name="UIGradient", Parent=gradient})
+    UIGradient = CreateInstance("UIGradient", {Color=ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(138, 43, 226)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB((138, 43, 226)), ColorSequenceKeypoint.new(1, Color3.fromRGB(138, 43, 226))}, Name="UIGradient", Parent=gradient})
     fps = CreateInstance("TextLabel", {BackgroundColor3=Color3.fromRGB(255, 255, 255), BackgroundTransparency=1, Position=UDim2.new(0.0100000072, 0, 0.18051517, 0), Size=UDim2.new(0, 127, 0, 20), Font=Enum.Font.Code, Text="", TextColor3=Color3.fromRGB(255, 255, 255), TextSize=16, Name="FPS", Parent=textHolder})
     
     local loop = "chimkin"
